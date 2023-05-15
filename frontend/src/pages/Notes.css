@@ -1,0 +1,62 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noteContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleInput {
+  margin-bottom: 10px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+}
+
+.titleInput:focus {
+  outline: none;
+}
+
+.bodyInput {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  resize: none;
+}
+
+.bodyInput:focus {
+  outline: none;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: teal;
+  border: none;
+}
+
+.mng {
+  width: 100%;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
